@@ -32,7 +32,7 @@ This PHP script manages a Telegram bot webhook, retrieves the chat ID, and sends
 Here is an example HTML form that you can use to submit data to this script:
 
 ```html
-<form action="your-script.php" method="POST">
+<form action="send_message.php" method="POST">
   <label for="name">Name:</label><br>
   <input type="text" id="name" name="name" required><br>
   <label for="email">Email:</label><br>
