@@ -1,6 +1,6 @@
 <?php
 // Replace with your bot token
-$botToken = "6132059962:AAHrfhsq9kkg1CK3FsAFRaK4l5zfoCWu14s";
+$botToken = "TOKEN";
 
 // Function to delete the webhook
 function deleteWebhook($botToken) {
