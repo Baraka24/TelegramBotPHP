@@ -66,7 +66,7 @@
 <body>
     <div class="contact-form">
         <h2>Contact Us</h2>
-        <form action="send_message.php" method="post">
+        <form id="contactForm">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -79,5 +79,7 @@
             <input type="submit" value="Send">
         </form>
     </div>
+    <!-- Include the JavaScript file -->
+    <script src="telegram-bot.js"></script>
 </body>
 </html>
